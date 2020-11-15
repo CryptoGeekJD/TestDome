@@ -27,5 +27,5 @@ services:
       - MYSQL_DATABASE=<database>
       - MYSQL_USER=<username>
       - MYSQL_PASSWORD=<password>
-    stop_grace_period: 20s 
+    stop_grace_period: 30s 
     restart: always
